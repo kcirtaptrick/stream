@@ -1,14 +1,22 @@
 {
   "Movies": [{
     "title": "Avengers: Infinity War",
+    "image": {
+      "location": "URL",
+      "url": "https://www.dvdsreleasedates.com/posters/800/A/Avengers-Infinity-War-2018-movie-poster.jpg"
+    },
     "location": "Google Drive",
     "id": "1obsH-nrjOFexehLMaIwaObv3grmjMzpc",
     "airdate": "",
     "airtime": ""
   }],
-  "TV": [{
+  "TV Shows": [{
     "title": "Silicon Valley",
     "location": "Google Drive",
+    "image": {
+      "location": "URL",
+      "url": "https://static.tvmaze.com/uploads/images/medium_portrait/149/373926.jpg"
+    },
     "seasons": [{
       "episodes": [{
         "title": "Minimum Viable Product",
@@ -526,5 +534,11 @@
         "summary": "The launch of PiperNet finds Monica suspicious of an early success, and the team must race against the clock as their future is threatened. Realizing he's made more enemies then friends, Richard makes a surprising move."
       }]
     }]
+  }, {
+    "title": "Black Mirror",
+    "image": {
+      "location": "URL",
+      "url": "https://m.media-amazon.com/images/M/MV5BMDRmOTZlOTEtNDdkMS00Yjg4LWJlYjgtZjA2NzkwZjMyNTk2XkEyXkFqcGdeQXVyMjYwNDA2MDE@._V1_.jpg"
+    }
   }]
 }
