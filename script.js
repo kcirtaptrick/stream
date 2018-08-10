@@ -1,5 +1,5 @@
 
-document.body.innerHTML += templates.nav();
+
 $(document).ready(() => {
 var local = {};
 local.templates = {
