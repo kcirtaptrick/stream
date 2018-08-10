@@ -29,6 +29,5 @@ var templates = {
   </nav>`
   }
 }
-console.log(templates.nav());;
-    
+$('body).append(templates.nav);
   
