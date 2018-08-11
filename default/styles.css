@@ -43,6 +43,7 @@ nav#main li a:hover {
 }
 .section ul.card-list li img {
   width: 10em;
+  /*border-radius: 0.5em;*/
 }
 .section ul.card-list li header {
   text-align: center;

@@ -29,5 +29,5 @@ var templates = {
   </nav>`
   }
 }
-$('body).append(templates.nav);
+$('body').append(templates.nav); 
   

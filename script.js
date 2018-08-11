@@ -1,6 +1,5 @@
 
 
-$(document).ready(() => {
 var local = {};
 local.templates = {
   test: 'hello',
@@ -14,12 +13,18 @@ local.templates = {
   card: (title, cover) => {return `
     <li>
       <a href="#">
+        <div class="placeholder"></div>
         <img src='${cover}'/>
         <div class='info'></div>
         <header>${title}</header>
       </a>
     </li>`
   }
+}
+var test = (cover) => {
+  setTimeout(() => {
+    return `<image src='${cover}'/>`
+  }, 3000)
 }
 
 for(let a = 0; a < keys.length; a++) {
@@ -52,4 +57,3 @@ for(let a = 0; a < keys.length; a++) {
     $(`#${section.id} .card-list`).append(local.templates.card(card.title, card.image()));
   }
 }
-})
