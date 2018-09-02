@@ -11,7 +11,7 @@ local.templates = {
   },
   card: (title, cover) => {return `
     <li>
-      <a href="#">
+      <a href="${rootDir}tv-shows/player/index.html?title=${vData.getId(title)}&season=1&episode=1">
         <img src='${cover}'/>
         <div class="placeholder"></div>
         <div class='info'></div>
@@ -43,7 +43,7 @@ for(let a = 0; a < keys.length; a++) {
   }
   if(typeof vData[keys[a]] == 'object'){
     $('#sections').append(local.templates.section(section.title, $(`nav#main ul li:nth-of-type(${a + 2}) a`).attr('href')))
-    for(let b = 0; b < vData[keys[a]].length; b++) {
+    for(let b = 0; b < vData[keys[a]].length && b < 14; b++) {
       let card = {
         data: vData[keys[a]][b],
         title: vData[keys[a]][b].title,

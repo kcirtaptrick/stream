@@ -1,0 +1,17 @@
+.video {
+    width: 100vw;
+    height: 30em;
+}
+.info *, #list * {
+    color: white !important;
+}
+.info header {
+    font-size: 1.5em;
+    width: 100%;
+}
+.info tag {
+    float: right;
+}
+.info div {
+    display: flex;
+}
